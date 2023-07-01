@@ -1,0 +1,35 @@
+body {
+    font-size: 16px;
+    background-color: hsl(228, 33%, 97%);
+}
+
+.post {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin: 5em;
+}
+
+
+.votes {
+    flex-flow: column;
+    align-items: flex-start;
+
+}
+
+.post-overview {
+
+}
+
+.user-info {
+ 
+}
+
+#post-interaction {
+    justify-content: flex-end;
+}
+
+.post-content {
+
+}
+
+
