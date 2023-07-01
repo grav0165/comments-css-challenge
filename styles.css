@@ -1,35 +1,56 @@
 body {
     font-size: 16px;
+    display: flex;
     background-color: hsl(228, 33%, 97%);
+    flex-direction: column;
 }
 
 .post {
     display: flex;
-    background-color: hsl(0, 0%, 100%);
+    flex-direction: row;
+    border: 5px solid red;
     margin: 5em;
 }
 
 
 .votes {
-    flex-flow: column;
+    display: flex;
+    flex-grow: 2;
+    flex-flow: column wrap;
+    border: 5px solid blue;
     align-items: flex-start;
+    flex-shrink: 2;
 
 }
 
 .post-overview {
-
+    display: flex;
+    flex-flow: column wrap;
+    border: 5px solid lightgreen
+    
 }
 
 .user-info {
- 
+    display: flex;
+    border: 5px solid cadetblue;
+    width: 50%
 }
 
-#post-interaction {
-    justify-content: flex-end;
+.post-interaction {
+    display: flex;
+    justify-content:right;
+    border: 5px solid orange;
+    width: 50%
+
 }
 
 .post-content {
-
+    display: flex;
+    border: 5px solid yellowgreen
 }
 
-
+.top-row {
+    display: flex;
+    justify-content: flex-start;
+    border: 5px solid gold;
+}
