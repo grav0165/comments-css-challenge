@@ -1,56 +1,133 @@
 body {
     font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
     display: flex;
-    background-color: hsl(228, 33%, 97%);
+    background-color: hsl(223, 19%, 93%);
     flex-direction: column;
 }
 
 .post {
     display: flex;
-    flex-direction: row;
-    border: 5px solid red;
-    margin: 5em;
+    border: 1px solid red;
+    margin: 1em;
+    margin-right: 8em;
+    margin-left: 8em;
+    min-width: 369px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
 }
 
 
 .votes {
     display: flex;
-    flex-grow: 2;
     flex-flow: column wrap;
-    border: 5px solid blue;
-    align-items: flex-start;
-    flex-shrink: 2;
+    min-width: 2em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    line-height: 250%;
 
+}
+
+.vote-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    min-width: 20px;
+    background-color: hsl(223, 19%, 93%);
+    border-radius: 7px;
+}
+
+.vote-up {
+    display: flex;
+
+}
+
+.vote-number {
+    display: flex;
+}
+
+.vote-down {
+    display: flex;
 }
 
 .post-overview {
     display: flex;
-    flex-flow: column wrap;
-    border: 5px solid lightgreen
+    flex-direction: column;
+    border: 1px solid lightgreen
     
 }
 
 .user-info {
     display: flex;
-    border: 5px solid cadetblue;
-    width: 50%
+    align-items: center;
+    flex-grow: 2;
+    border: 1px solid cadetblue;
+}
+
+.username {
+    margin-left: 0.1em;
+    margin-right: 2em;
+    font-weight: 500;
+    color: hsl(238, 40%, 52%);
+}
+
+.time-posted {
+    color: hsl(223, 19%, 56%);
 }
 
 .post-interaction {
     display: flex;
-    justify-content:right;
-    border: 5px solid orange;
-    width: 50%
-
+    color: hsl(238, 40%, 52%);
+    align-items: center;
+    border: 1px solid orange;
 }
 
 .post-content {
     display: flex;
-    border: 5px solid yellowgreen
+    min-height: 60px;
+    align-items: center;
+    margin-right: 2em;
+    border: 1px solid purple;
+    font-weight: lighter;
+    padding: 1.5em;
+    padding-left: 4px;
+    color:hsl(223, 19%, 56%);
 }
 
 .top-row {
     display: flex;
-    justify-content: flex-start;
-    border: 5px solid gold;
+    flex-grow: 3;
+    align-items: center;
+    border: 1px solid gold;
+}
+
+.delete-btn {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.edit-btn {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.you {
+    background-color: hsl(238, 40%, 52%);
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-left: 5px
+}
+.you-text {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+.pfp img{
+    max-width: 50%;
+    min-width: 20%;
+    padding-left: 10px;
 }
