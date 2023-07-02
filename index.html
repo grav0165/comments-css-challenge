@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="post-interaction">
-          <img alt="reply" src="./images/icon-reply.svg" /> Reply
+          <button class="button reply"><img alt="reply" src="./images/icon-reply.svg" /> Reply</button>
         </div>
       </div>
       <div class="post-content">
@@ -101,7 +101,7 @@
             </div>
           </div>
           <div class="post-interaction">
-            <img alt="reply" src="./images/icon-reply.svg" />Reply
+            <button class="button reply"><img alt="reply" src="./images/icon-reply.svg" /> Reply</button>
           </div>
         </div>
         <div class="post-content">
@@ -113,6 +113,8 @@
     </div>
 
     <!-- Comment #3 (Reply to comment #2) -->
+    <div class="reply-post-connection">
+    </div>
     <div class="post reply-post">
       <div class="votes">
         <div class="vote-div">
@@ -141,7 +143,7 @@
             </div>
           </div>
           <div class="post-interaction">
-            <img alt="reply" src="./images/icon-reply.svg" />Reply
+            <button class="button reply"><img alt="reply reply" src="./images/icon-reply.svg" /> Reply</button>
           </div>
         </div>
         <div class="post-content">
@@ -182,9 +184,9 @@
           </div>
           <div class="post-interaction">
             <div class="delete-btn">
-            <img alt="delete button" src="./images/icon-delete.svg" /></div>Delete
+            <img alt="delete button" src="./images/icon-delete.svg" /></div><span class="delete-text">Delete</span>
             <div class="edit-btn">
-            <img alt="edit button" src="./images/icon-edit.svg" /></div>Edit
+            <img alt="edit button" src="./images/icon-edit.svg" /></div><span class="edit-text">Edit</span>
           </div>
         </div>
         <div class="post-content">
@@ -195,6 +197,21 @@
       </div>
     </div>
 
+    <div class="posting-box">
+      <div class="pfp active-user">
+        <img src="./images/avatars/image-juliusomo.png" alt="profile" />
+      </div>
+    <div class="input-text-box">
+    <form>
+      <input type="text" class="post-input" placeholder="Add a comment..." height="150" width="250" alt="write post here">
+    </div>
+    <div class="post-button">
+      <button class="send-btn" alt="send button">SEND</button>
+    </div>
+    </form>
+  
+  </div>
+  
 
     <div class="attribution">
       Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9"
