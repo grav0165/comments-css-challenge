@@ -111,17 +111,37 @@ body {
     margin-top: 26.5em;
 }
 
-.delete-btn {
-    padding-left: 10px;
-    padding-right: 5px;
+
+/* .btn{
+    display: flex;
+    flex-direction: row;
+    background-color: ;
+    padding: 5px;
+    margin: 5px;
+} */
+
+.btn-img{
+    display: flex;
+    padding: 2px 5px;
 }
-.delete-text {
-    color: hsl(358, 79%, 66%);
+.btn-text{
+    display:flex;
 }
 
+#delete-btn-txt{
+    color: hsl(358, 79%, 66%);
+}
+ #delete-btn {
+    padding: 0;
+ }
+
 .edit-btn {
-    padding-left: 10px;
-    padding-right: 5px;
+    background: none;
+    color: hsl(238, 40%, 52%);
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    padding: 10px 24px
 }
 .you {
     background-color: hsl(238, 40%, 52%);
@@ -155,12 +175,17 @@ body {
     border-radius: 7px;
 }
 .input-text-box {
-    display: flex;
-    justify-content: flex-end;
-    padding: .5em;
+    text-align: right;
 }
 .post-input {
-    flex: 1 0 auto;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid hsl(223, 19%, 93%);
+    border-radius: 5px;
+    resize: none;
+    padding: 0.5em;
+    height: 130px;
+    width: 490px;
 }
 .active-user {
     display: flex;
@@ -175,9 +200,13 @@ body {
     font-size: 16px;
     padding: 10px 24px
 }
+.delete {
+    display: flex;
+}
 .reply {
     color: hsl(238, 40%, 52%);
 }
+
 .send-btn {
     background-color: hsl(238, 40%, 52%);
     color:hsl(0, 0%, 100%);
@@ -186,6 +215,7 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    margin: 12px 2px;
+    margin: 0 0 0 20px;
     cursor: pointer;
+    float: right;
 }
